@@ -1,6 +1,23 @@
+
+//Core Files
+@import "variables";
+
+//Structures Ex. Top bar, side bar etc.
+@import "structures_style/topbar";
+
+//Components
+@import "components_style/buttons";
+
+//Pages
+@import "pages_style/home";
+
+
+
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;

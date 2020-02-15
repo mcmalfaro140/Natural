@@ -4,9 +4,13 @@ import { Route } from 'react-router-dom';
 
 // lazy load all the views
 const HomeLayout = React.lazy(() => import('./assets/pages/HomeLayout'));
+const ContactLayout = React.lazy(() => import('./assets/pages/ContactLayout'));
+const CateringLayout = React.lazy(() => import('./assets/pages/CateringLayout'));
 
 const routes = [
     { path: '/Home', name: 'Home', component: HomeLayout, route: Route },
+    { path: '/Contact', name: 'Contact', component: ContactLayout, route: Route },
+    { path: '/Catering', name: 'Catering', component: CateringLayout, route: Route },
     {
         path: "/",
         exact: true,

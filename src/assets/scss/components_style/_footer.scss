@@ -1,0 +1,32 @@
+.footer{
+    >div:nth-child(1){
+        background-color: rgb(184, 140, 109);
+        >div{
+            padding-top: 3%;
+            padding-bottom: 3%;
+            >span{
+                margin: 5%;
+                
+            }
+        }
+    }
+    >div:nth-child(2){
+        background-color: rgb(112, 82, 60);
+        color: white;
+        padding: 1%;
+        >span:nth-child(1){
+            margin-left: 2%;
+            font-size: 120%
+        }
+        >div{
+            float: right;
+            width: 200px;
+            >span{
+                margin-left: 10%;
+                margin-right: 10%;
+                font-size: 150%
+            }
+        }
+
+    }
+}

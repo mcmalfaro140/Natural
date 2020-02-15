@@ -26,7 +26,7 @@ const Topbar = (props) => {
                 <Link to="/Home">Home</Link>
             </NavItem>
             <NavItem>
-                <Link to="/Home">Menu</Link>
+                <Link to="/Menu">Menu</Link>
             </NavItem>
             <NavItem>
                 <Link to="/Catering">Catering</Link>

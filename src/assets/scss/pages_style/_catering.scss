@@ -1,6 +1,7 @@
 .catering_style{
-    margin: 4%;;
+    margin: 3%;;
     >h1{
+        margin: 1%;
         font-size: 250%;
     }
     >div{
@@ -9,8 +10,25 @@
             justify-content: space-around;
             flex-flow: row wrap;
             >div{
+                // background-color: white;
+                // border: 1px solid white;
+                // box-shadow: 2px 0 25px 0 rgba(146, 144, 144, 0.925);
                 width: 30%;
-                text-align: center;
+                margin-top: 3%;
+                // text-align: center;
+                >img{
+                    width: 100%
+                }
+                >div:nth-child(2){
+                    font-weight: 600;
+                    font-size: 140%;
+                }
+                >div:nth-child(3){
+
+                }
+                >div:nth-child(4){
+                    float:right;
+                }
             }
         }
     }

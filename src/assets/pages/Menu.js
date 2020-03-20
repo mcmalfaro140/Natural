@@ -13,9 +13,9 @@ class Menu extends React.Component {
                 {path: "1",name: "Breakfast Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil, wheat bread", price: "$10.50 + tax"},
                 {path: "2",name: "Lunch Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,wheat bread", price: "$11.50 + tax"},
                 {path: "3",name: "Dinner Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,wheat bread", price: "$12.50 + tax"},
-                {path: "4",name: "Breakfast Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil, wheat bread", price: "$10.50 + tax"},
+                {path: "3",name: "Breakfast Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil, wheat bread", price: "$10.50 + tax"},
                 {path: "5",name: "Lunch Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,wheat bread", price: "$11.50 + tax"},
-                {path: "6",name: "Dinner Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,v", price: "$12.50 + tax"}
+                {path: "1",name: "Dinner Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil, wheat bread", price: "$12.50 + tax"}
             ]
         }
     

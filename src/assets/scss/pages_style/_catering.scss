@@ -1,0 +1,17 @@
+.catering_style{
+    margin: 4%;;
+    >h1{
+        font-size: 250%;
+    }
+    >div{
+        >div{
+            display: flex;
+            justify-content: space-around;
+            flex-flow: row wrap;
+            >div{
+                width: 30%;
+                text-align: center;
+            }
+        }
+    }
+}

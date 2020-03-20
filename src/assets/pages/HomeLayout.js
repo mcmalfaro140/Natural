@@ -1,5 +1,7 @@
 import React from 'react';
 import{ Button } from 'reactstrap'
+import {Link} from 'react-router-dom'
+import logo from '../images/big_logo.png'
 
 class HomeLayout extends React.Component {
     constructor(props){
@@ -56,7 +58,7 @@ class HomeLayout extends React.Component {
                             <div>Eat Natural.</div>
                         </li>
                         <li>
-                            <Button color="primary">View Menu</Button>{' '}
+                            <Link to='/Menu'><Button color="primary">View Menu</Button></Link>{' '}
                             <Button color="primary">Order Online</Button>{' '}
                         </li>
                     </ul>
@@ -67,8 +69,20 @@ class HomeLayout extends React.Component {
                         {menu_items}
                     </ul>
                 </div>
-                <div className="home_menu_style">
+                <div className="home_about_style">
                     <h1>About Us</h1>
+                    <div>
+                        <img src={logo} alt="logo"></img>
+                        <div>NATURAL SELECTION is committed to being an essential part of your health by providing you with fresh, wholesome and delicious food.</div>
+                        <div>Every meal that we serve is made of the highest quality and freshest ingredients. We are as passionate about taste as we are about serving you with quality food you can trust.</div>
+                        <div>We use cage free organic eggs.We only serve ORGANIC, in-season vegetables, fruits and grains. We craft our signature dressings individually to create the perfect balance in every bite.</div>
+                    </div>
+                </div>
+                <div className="home_hours_style">
+                    <div>HOURS OF OPERATION</div>
+                    <div>Mon – Fri 8 am-7pm | </div>
+                    <div>Sat 9am – 4pm | </div>
+                    <div>Sun Closed</div>
                 </div>
             </div>
         )

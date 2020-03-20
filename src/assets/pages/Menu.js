@@ -2,12 +2,12 @@ import React from 'react';
 //import FlatList from 'flatlist-react';
 //import {List} from 'react-native-elements';
 let foodMenu = [{food:"Breakfast"},{ food: "From the Grill"}, {food:"Salads"},{food:"Wraps"},{food: "Bowls"},{food:"Drinks"},];
-let Breakfast = [{srcs: './images/chickenWrap.jpg',name: "Breakfast Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil", price: "$10.50 + tax"},
-                 {srcs: './images/chickenWrap.jpg',name: "Lunch Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil", price: "$11.50 + tax"},
-                 {srcs: './images/chickenWrap.jpg',name: "Dinner Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil", price: "$12.50 + tax"},
-                 {srcs: './images/chickenWrap.jpg',name: "Breakfast Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil", price: "$10.50 + tax"},
-                 {srcs: './images/chickenWrap.jpg',name: "Lunch Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil", price: "$11.50 + tax"},
-                 {srcs: './images/chickenWrap.jpg',name: "Dinner Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil", price: "$12.50 + tax"}];
+let Breakfast = [{srcs: './images/chickenWrap.jpg',name: "Breakfast Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil, wheat bread", price: "$10.50 + tax"},
+                 {srcs: './images/chickenWrap.jpg',name: "Lunch Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,wheat bread", price: "$11.50 + tax"},
+                 {srcs: './images/chickenWrap.jpg',name: "Dinner Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,wheat bread", price: "$12.50 + tax"},
+                 {srcs: './images/chickenWrap.jpg',name: "Breakfast Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil, wheat bread", price: "$10.50 + tax"},
+                 {srcs: './images/chickenWrap.jpg',name: "Lunch Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,wheat bread", price: "$11.50 + tax"},
+                 {srcs: './images/chickenWrap.jpg',name: "Dinner Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,v", price: "$12.50 + tax"}];
 
 
 
@@ -45,7 +45,6 @@ class Menu extends React.Component {
                 <div >
                   Dishes
                   <ul>{dishes}</ul>
-
                 </div>
             </div>
             

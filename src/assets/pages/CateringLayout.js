@@ -1,4 +1,6 @@
 import React from 'react';
+import strawb from '../images/fresas.png'
+import mush from '../images/hongo.png'
 
 class CateringLayout extends React.Component {
     constructor(props){
@@ -9,19 +11,19 @@ class CateringLayout extends React.Component {
                     title:"Wrap Tray",
                     desc: "Six wraps of your choice cut on fourths. Serves eight to ten people.",
                     price: "54.95",
-                    path: "cater1"
+                    path: "breakfast5"
                 },
                 {
                     title:"Sandwich Tray",
                     desc: "Six sandwiches or burgers cut in half. Serves eight to ten people.",
                     price: "54.95",
-                    path: "cater1"
+                    path: "sand2"
                 },
                 {
                     title:"Salad Bowl",
                     desc: "Your choice of any of our salads. Serves eight to ten people. **ADD Protein for $8.00",
                     price: "30.95",
-                    path: "cater1"
+                    path: "bowl"
                 },
                 {
                     title:"Fruit Tray",
@@ -51,6 +53,8 @@ class CateringLayout extends React.Component {
                 <div >
                   <div>{plates}</div>
                 </div>
+                <img src={strawb} alt="img_fruit" className="img1"></img>
+                <img src={mush} alt="img_fruit2" className="img2"></img>
             </div>
         )
     }

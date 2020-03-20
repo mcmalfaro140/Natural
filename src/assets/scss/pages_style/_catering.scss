@@ -1,5 +1,6 @@
 .catering_style{
-    margin: 3%;;
+    margin: 3%;
+    margin-bottom: 10%;
     >h1{
         margin: 1%;
         font-size: 250%;
@@ -11,13 +12,19 @@
             flex-flow: row wrap;
             >div{
                 // background-color: white;
-                // border: 1px solid white;
-                // box-shadow: 2px 0 25px 0 rgba(146, 144, 144, 0.925);
+                border: 1px solid white;
+                box-shadow: 2px 0 25px 0 rgba(106, 152, 204, 0.925);
                 width: 30%;
                 margin-top: 3%;
                 // text-align: center;
                 >img{
-                    width: 100%
+                    width: 100%;
+                    height: 70%;
+                }
+                >div{
+                    margin: 2%;
+                    margin-left: 6%;
+                    margin-right: 6%;
                 }
                 >div:nth-child(2){
                     font-weight: 600;
@@ -28,8 +35,25 @@
                 }
                 >div:nth-child(4){
                     float:right;
+                    >span{
+                        font-weight: 800;
+                    }
+                    margin-bottom: 4%;
                 }
             }
         }
     }
+}
+
+.img1{
+    float: right;
+    width: 13%;
+    margin-top: -23%;
+    margin-right: 7%;
+}
+.img2{
+    float: left;
+    width: 13%;
+    margin-top: -23%;
+    margin-left: 7%;
 }

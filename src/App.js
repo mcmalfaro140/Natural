@@ -4,6 +4,7 @@ import './assets/scss/App.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 import Topbar from './assets/components/Topbar'
 import Footer from './assets/components/Footer'
+import { AnimatedSwitch } from 'react-router-transition';
 
 import { routes } from './routes';
 
@@ -21,7 +22,13 @@ class App extends Component {
               routes.map((route, index) =>{
                 return(
                   <Suspense fallback={loading()}>
-                    <Route path={route.path} component={route.component}></Route>
+                    <AnimatedSwitch
+                        atEnter={{ opacity: 0 }}
+                        atLeave={{ opacity: 0 }}
+                        atActive={{ opacity: 1 }}
+                        className="switch-wrapper">
+                      <Route path={route.path} component={route.component}></Route>
+                    </AnimatedSwitch>
                   </Suspense>
                 )
               })

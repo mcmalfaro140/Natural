@@ -16,8 +16,8 @@ const Topbar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar className="topbar" dark expand="md">
+      <Navbar className="topbar" sticky={'top'} dark fixed expand="md">
+        <div><NavbarBrand><img src={require('../images/a_logo.ico')} width="30" height="30" alt="Natural Logo"/></NavbarBrand></div>
         <NavbarBrand href="/">Natural Selection</NavbarBrand>
         <NavbarToggler onClick={toggle} className="mr-2" />
         <Collapse isOpen={isOpen} navbar>
@@ -38,7 +38,6 @@ const Topbar = (props) => {
           <NavbarText>Arcadia | 626-294-0466</NavbarText>
         </Collapse>
       </Navbar>
-    </div>
   );
 }
 

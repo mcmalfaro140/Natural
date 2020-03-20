@@ -1,8 +1,11 @@
 .topbar{
-    background-color: rgb(112, 82, 60);
+    background-color: rgb(88, 65, 47);
     >a{
         color: white;
         font-size: 220%;
+    }
+    >div:nth-child(1){
+        margin-left: 3%
     }
     >div{
         >ul{
@@ -17,9 +20,12 @@
                     font-size: 140%;
                 }
                 >a:hover{
-                    color: black;
+                    color: rgb(253, 170, 103);
                 }
             }
+        }
+        >span{
+            margin-right: 3%
         }
     }
 }

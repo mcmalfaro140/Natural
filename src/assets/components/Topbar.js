@@ -16,7 +16,7 @@ const Topbar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-      <Navbar className="topbar" sticky={'top'} dark fixed expand="md">
+      <Navbar className="topbar" sticky={'top'} dark fixed expand="lg">
         <div><NavbarBrand><img src={require('../images/a_logo.ico')} width="30" height="30" alt="Natural Logo"/></NavbarBrand></div>
         <NavbarBrand href="/">Natural Selection</NavbarBrand>
         <NavbarToggler onClick={toggle} className="mr-2" />

@@ -80,8 +80,8 @@ class HomeLayout extends React.Component {
                 </div>
                 <div className="home_hours_style">
                     <div>HOURS OF OPERATION</div>
-                    <div>Mon – Fri 8 am-7pm | </div>
-                    <div>Sat 9am – 4pm | </div>
+                    <div>Mon – Fri 8 am-7pm <span>|</span> </div>
+                    <div>Sat 9am – 4pm <span>|</span> </div>
                     <div>Sun Closed</div>
                 </div>
             </div>

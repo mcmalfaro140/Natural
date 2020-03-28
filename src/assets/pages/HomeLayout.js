@@ -30,9 +30,9 @@ class HomeLayout extends React.Component {
         }
     }
     render(){
-        const menu_items = this.state.menu.map((item) => {
+        const menu_items = this.state.menu.map((item,i) => {
             return(
-                <li>
+                <li key={i}>
                     <div>
                         <img src={require(`../../assets/images/menu_item${item.path}.jpg`)}></img>
                     </div>
@@ -56,6 +56,7 @@ class HomeLayout extends React.Component {
                         </li>
                         <li>
                             <div>Eat Natural.</div>
+                            <div>Arcadia | (626)-294-0466</div>
                         </li>
                         <li>
                             <Link to='/Menu'><Button color="primary">View Menu</Button></Link>{' '}

@@ -27,6 +27,12 @@
                 margin-left: 1%;
                 text-shadow: 2px 2px rgb(5, 6, 26);
             }
+            >div:nth-child(2){
+                margin-top: 2%;
+                font-size: 125%;
+                font-weight: 300;
+                text-shadow: 1px 1px rgb(5, 6, 26);
+            }
         }
         >li:nth-child(4){
             margin-top: 3%;

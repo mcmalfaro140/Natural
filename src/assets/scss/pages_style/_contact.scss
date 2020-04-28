@@ -13,7 +13,7 @@
         >div:nth-child(2){
             //background-color: green;
            >div:nth-child(1){
-              background-color: blue;
+              //background-color: blue;
               
            }
            >form{
@@ -31,7 +31,7 @@
    }
    >div:nth-child(2){
         display: flex;
-       //background-color: blue;
+        background-color: blue;
        align-items: center;
        justify-content: center;
    }

@@ -25,7 +25,6 @@ class ContactLayout extends React.Component {
                             <Col>  
                                 <input type="text" name="name" 
                                 placeholder="Full Name*:"
-                                bindings="MaterialTextField"
                                 User="Name"/>
                             </Col>
                             <br/>

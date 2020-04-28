@@ -17,11 +17,12 @@
               
            }
            >form{
-              
               >div:nth-child(1){
-                  border: none;
-                  border-bottom: 1px solid black;
-                  background-color: white;
+                 >input{
+                     border: none;
+                     border-bottom: 1px solid gray;
+                     width: 100%
+                 }
               }
            }
            

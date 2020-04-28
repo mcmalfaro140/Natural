@@ -11,7 +11,6 @@
             justify-content: space-around;
             flex-flow: row wrap;
             >div{
-                // background-color: white;
                 border: 1px solid white;
                 box-shadow: 2px 0 25px 0 rgba(106, 152, 204, 0.925);
                 width: 30%;
@@ -56,4 +55,41 @@
     width: 13%;
     margin-top: -23%;
     margin-left: 7%;
+}
+
+@media (max-width: $table){
+    .catering_style{
+        >div{
+            >div{
+                >div{
+                    width: 45%;
+                    >img{
+                        height: 60%
+                    }
+                }
+            }
+        }
+    }
+
+    .img1{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+}
+@media (max-width: $phone){
+    .catering_style{
+        >div{
+            >div{
+                >div{
+                    width: 95%;
+                    margin-top: 8%;
+                    >img{
+                        height: 65%
+                    }
+                }
+            }
+        }
+    }
 }

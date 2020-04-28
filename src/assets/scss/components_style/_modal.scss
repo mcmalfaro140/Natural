@@ -1,0 +1,163 @@
+.modal_form{
+    >div{
+        margin-top: 20%;
+        margin-left: -40%;
+        width: 180%;
+        >div{
+            display: flex;
+            flex-direction: row;
+            column-count: 2;
+            align-items: center;
+            justify-content: center;
+            >div:nth-child(1){
+                background-image: url('../../images/menu_item2.jpg');
+                background-position: 100% 10%; 
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 70%;
+                height: 500px;
+                >div{
+                    background-color: rgba(0, 0, 0, 0.747);
+                    width: 100%;
+                    height: 500px;
+                    padding-top: 70%;
+                    text-align: center;
+                    color: white;
+                    >div:nth-child(1){
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 1%;
+                        >div{
+                            border-radius: 30px;
+                            margin: 2%;
+                            margin-bottom: 2%;
+                            cursor:pointer;
+                            >svg{
+                                font-size: 220%
+                            }
+                        }
+                        :hover{
+                            color: rgb(250, 142, 53);
+                        }
+                    }
+                    >div:nth-child(3):hover{
+                        color: red;
+                        text-decoration: underline;
+                        cursor:pointer;
+                    }
+                }               
+            }
+        }
+    }
+}
+
+.login{
+    width: 500px;
+    height: 500px;
+    padding: 9%;
+    text-align: center;
+    >div:nth-child(4){
+        font-size: 120%;
+        font-weight: 700;
+        margin-bottom: 10%;
+    }
+    >form{
+        >div{
+            position: relative;
+            >svg{
+                position: absolute;
+                bottom:8px;
+                right:90%;
+                width:24px;
+                height:24px;
+            }
+            >input{
+                border: none;
+                border-bottom: 1px solid rgba(167, 165, 165, 0.555);
+                border-radius: 0px;
+                padding-left:15%; 
+            }
+        }
+        >button{
+            margin: 10%;
+            width: 60%
+        }
+    }
+}
+
+.register{
+    width: 500px;
+    height: 500px;
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: center;
+    >form{
+        >div{
+            >input{
+                border: none;
+                border-bottom: 1px solid rgba(167, 165, 165, 0.555);
+                border-radius: 0px;
+            }
+        }
+        >button{
+            width: 60%
+        }
+    }
+}
+
+.close-x{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor:pointer;
+    :hover{
+        color: red;
+    }
+}
+.name_mod{
+    color: rgb(250, 142, 53);
+    text-shadow: 1px 1px rgb(5, 6, 26);
+    font-size: 180%;
+    font-weight: 600
+}
+.follow_text{
+    font-size: 120%;
+    font-weight: 700;
+    margin-bottom: 10%;
+}
+
+.no_showing{
+    display: none;
+    >span{
+        color: red;
+    }
+}
+
+@media (max-width: $table){
+    .modal_form{
+        >div{
+            margin-top: 40%;
+            margin-left: -20%;
+            width: 140%;
+        }
+    }
+}
+
+@media (max-width: $phone){
+    .modal_form{
+        >div{
+            margin-top: 40%;
+            margin-left: 0%;
+            width: 100%;
+            >div{
+                >div:nth-child(1){
+                    display:none;
+                }
+            }
+        }
+        .no_showing{
+            display: block;
+        }
+    }
+}

@@ -30,9 +30,9 @@ class HomeLayout extends React.Component {
         }
     }
     render(){
-        const menu_items = this.state.menu.map((item) => {
+        const menu_items = this.state.menu.map((item,i) => {
             return(
-                <li>
+                <li key={i}>
                     <div>
                         <img src={require(`../../assets/images/menu_item${item.path}.jpg`)}></img>
                     </div>
@@ -56,6 +56,7 @@ class HomeLayout extends React.Component {
                         </li>
                         <li>
                             <div>Eat Natural.</div>
+                            <div>Arcadia | (626)-294-0466</div>
                         </li>
                         <li>
                             <Link to='/Menu'><Button color="primary">View Menu</Button></Link>{' '}
@@ -80,8 +81,8 @@ class HomeLayout extends React.Component {
                 </div>
                 <div className="home_hours_style">
                     <div>HOURS OF OPERATION</div>
-                    <div>Mon – Fri 8 am-7pm | </div>
-                    <div>Sat 9am – 4pm | </div>
+                    <div>Mon – Fri 8 am-7pm <span>|</span> </div>
+                    <div>Sat 9am – 4pm <span>|</span> </div>
                     <div>Sun Closed</div>
                 </div>
             </div>

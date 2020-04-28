@@ -24,8 +24,45 @@
                 }
             }
         }
-        >span{
-            margin-right: 3%
+        >a:nth-child(2){
+            width: 17%;
+            >button{
+                border-color: rgb(250, 142, 53);
+                background-color: rgb(250, 142, 53);
+                width: 100%
+            }
+            :hover{
+                border-color: rgb(190, 106, 36);
+                background-color: rgb(190, 106, 36);
+            }
         }
+    }
+}
+@media (max-width: $table){
+    .topbar{
+        >div:nth-child(4){
+            >a{
+                >button{
+                    margin-top: 3%;
+                }
+            }
+        }
+        
+    }
+}
+
+@media (max-width: $phone){
+    .topbar{
+        >a{
+            font-size: 150%;
+        }
+        >div:nth-child(4){
+            >a{
+                >button{
+                    margin-top: 6%;
+                }
+            }
+        }
+        
     }
 }

@@ -75,7 +75,35 @@
 }
 
 @media (max-width: $table){
+    .menu{
+        >div{
+            >div{
+                >div{
+                    width: 45%
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: $phone){
+    .menu{
+        >ul{
+            border-bottom: 1px solid black;
+           >div:nth-child(1){
+                margin-left: -10%;
+                display: block;
+           }
+           >div{
+               display: none;
+           }
+        }
+        >div{
+            >div{
+                >div{
+                    width: 100%
+                }
+            }
+        }
+    }
 }

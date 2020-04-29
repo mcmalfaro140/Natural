@@ -16,8 +16,8 @@ class ContactLayout extends React.Component {
                     </Col>
                      <Col>
                          <Col>
-                            <h2>Contact.</h2>
-                            <h3>Get In Touch.</h3>
+                            <div>Contact.</div>
+                            <div>Get In Touch.</div>
                             Leave us a message
                          </Col>
                          <br/>

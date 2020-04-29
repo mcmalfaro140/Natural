@@ -1,24 +1,22 @@
 
 .contact{
     
-   background-size: cover;
-   padding-top: 70;
    >div:nth-child(1){
-       
         display: flex;
+        border-bottom: 1px solid rgba(204, 201, 201, 0.87);
         >div:nth-child(1){
             display: flex;
-            //border: 1px solid gray;
-            
+            // border-right: 1px solid rgba(128, 128, 128, 0.589);
         }
         >div:nth-child(2){
-         //border: 1px solid gray;
-         //border-bottom: 1px solid gray ;
-         //border-right: 1px solid gray;
-           >div:nth-child(1){
-          
-              
+           >div{
+              >div{
+                  font-weight: 900;
+                  font-size: 350%;
+              }
            }
+
+           padding: 2%;
            >form{
               >div:nth-child(1){
                  >input{
@@ -29,7 +27,6 @@
               }
               >div:nth-child(2){
                   >input{
-                     
                      padding-top: 15px;
                      border: none;
                      border-bottom: 1px solid gray;
@@ -45,9 +42,9 @@
               >div:nth-child(4){
                  height: 100%;
                   >textarea{
-                     border-bottom: 1px solid gray;
+                     border: 1px solid grey;
                      width: 100%;
-                     
+                     // margin-bottom: 10%
                   }
               }
               >div:nth-child(5){
@@ -56,7 +53,6 @@
                align-items: center;
                padding-top: 20px ;
                >Button{
-                  //margin-top: 20px;
                   object-position: bottom;
                   width: 30%;
                  

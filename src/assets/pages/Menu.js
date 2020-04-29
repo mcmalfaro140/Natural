@@ -8,12 +8,12 @@ class Menu extends React.Component {
         super(props);
         this.state={
             breakfast :[
-                {path: "1",name: "Breakfast Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil, wheat bread", price: "$10.50 + tax" },
-                {path: "2",name: "Lunch Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,wheat bread", price: "$11.50 + tax"},
-                {path: "3",name: "Dinner Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,wheat bread", price: "$12.50 + tax"},
-                {path: "3",name: "Breakfast Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil, wheat bread", price: "$10.50 + tax"},
-                {path: "5",name: "Lunch Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,wheat bread", price: "$11.50 + tax"},
-                {path: "1",name: "Dinner Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil, wheat bread", price: "$12.50 + tax"}
+                {path: "1",name: "Breakfast Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil, wheat bread", price: "10.50 " },
+                {path: "2",name: "Lunch Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,wheat bread", price: "11.50 "},
+                {path: "3",name: "Dinner Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,wheat bread", price: "12.50 "},
+                {path: "3",name: "Breakfast Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil, wheat bread", price: "10.50 "},
+                {path: "5",name: "Lunch Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil,wheat bread", price: "11.50 "},
+                {path: "1",name: "Dinner Sandwich", ingredients: "Eggs, parmesan cheese, tomato, basil, wheat bread", price: "12.50 "}
 
             ]
         }
@@ -33,9 +33,9 @@ class Menu extends React.Component {
             return (
                 <div className="img">
                     <img  src={require(`../images/breakfast${item.path}.jpg`)}/>
-                    <ul>{item.name}</ul>
-                    <ul>{item.ingredients}</ul>
-                    <ul>{item.price}</ul>
+                    <div>{item.name}</div>
+                    <div>{item.ingredients}</div>
+                    <div><span>${item.price}</span> + tax.</div>
                 </div>
             )
         })
@@ -45,8 +45,8 @@ class Menu extends React.Component {
                 <h1>Menu</h1>
                 <ul>{item}</ul>
                 <div >
-                  Dishes
-                  <ul>{dishes}</ul>
+                  {/* Dishes */}
+                  <div>{dishes}</div>
                 </div>
             </div>
             

@@ -23,16 +23,16 @@ class ContactLayout extends React.Component {
                          <br/>
                         <Form>
                             <Col>  
-                                <input type="text" name="name" 
+                               <input type="text" name="name" 
                                 placeholder="Full Name*:"
                                 User="Name"/>
                             </Col>
-                            <br/>
+                           
                             <Col>
                                   <input type="text" name="email" placeholder="Email*:"/>
                                 
                             </Col>
-                            <br/>
+                            
                             <Col>
                                 <label>
                                     Message:
@@ -40,11 +40,11 @@ class ContactLayout extends React.Component {
 
                             </Col>
                             <Col>
-                                <textarea type="text" name="name" />
+                                <textarea type="text" name="name"  rows={6} />
                             </Col>
-                            <br/>
+                          
                             <Col>  <Button color="primary">Send Message</Button></Col>
-                             {/* <input type="submit" color="primary" value="Send Message" /> */}
+                            
                         </Form>
                      </Col>
                 </Row>

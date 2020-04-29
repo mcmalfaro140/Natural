@@ -1,19 +1,22 @@
+
 .contact{
     
-   //background-color: pink;
    background-size: cover;
    padding-top: 70;
    >div:nth-child(1){
-        
+       
         display: flex;
         >div:nth-child(1){
-            //background-color: pink;
             display: flex;
+            //border: 1px solid gray;
+            
         }
         >div:nth-child(2){
-            //background-color: green;
+         //border: 1px solid gray;
+         //border-bottom: 1px solid gray ;
+         //border-right: 1px solid gray;
            >div:nth-child(1){
-              //background-color: blue;
+          
               
            }
            >form{
@@ -24,6 +27,41 @@
                      width: 100%
                  }
               }
+              >div:nth-child(2){
+                  >input{
+                     
+                     padding-top: 15px;
+                     border: none;
+                     border-bottom: 1px solid gray;
+                     width: 100%
+                  }
+              }
+              >div:nth-child(3){
+                  >label{
+                     padding-top: 15px;
+                     
+                  }
+              }
+              >div:nth-child(4){
+                 height: 100%;
+                  >textarea{
+                     border-bottom: 1px solid gray;
+                     width: 100%;
+                     
+                  }
+              }
+              >div:nth-child(5){
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               padding-top: 20px ;
+               >Button{
+                  //margin-top: 20px;
+                  object-position: bottom;
+                  width: 30%;
+                 
+               }
+           }
            }
            
         }
@@ -31,7 +69,6 @@
    }
    >div:nth-child(2){
         display: flex;
-        background-color: blue;
        align-items: center;
        justify-content: center;
    }
